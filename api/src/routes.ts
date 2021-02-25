@@ -1,5 +1,6 @@
 import { Router } from "express";
-import { UserController } from "./controllers/userController";
+import { SurveysController } from "./controllers/SurveysController";
+import { UserController } from "./controllers/UserController";
 
 /*
     GET => Busca
@@ -17,7 +18,11 @@ import { UserController } from "./controllers/userController";
 const router = Router();
 
 const userController = new UserController();
+const surveysController = new SurveysController();
 
 router.post("/users", userController.create);
+
+router.get("/surveys", surveysController.show);
+router.post("/surveys", surveysController.create);
 
 export { router };
