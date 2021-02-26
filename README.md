@@ -7,3 +7,19 @@ Projeto desenvolvido durante o bootcamp Next Level Week (NLW), trilha NodeJs, ap
 ## Links
 [![NLW04-NodeJs Github Page Badge](https://img.shields.io/badge/NLW04%20--%20NodeJs-202020?style=flat-square&logo=github&logoColor=white)](https://github.com/rocketseat-education/nlw-04-nodejs "/rocketseat-education/nlw-04-nodejs")
 [![Rocketseat Site Badge](https://img.shields.io/badge/Rocketseat%20Education-1b1b1f?style=flat-square&logo=google-optimize&logoColor=8257e5)](https://rocketseat.com.br/ "https://rocketseat.com.br/")
+
+## Como rodar
+
+Abra o terminal na pasta api (./api) e execute o comando `yarn dev`
+
+#### Windows:
+```dos
+C:Users\user\next-level-week-4-NodeJs>cd api
+C:Users\user\next-level-week-4-NodeJs\api>yarn dev
+```
+
+#### Linux:
+```console
+user@linux-desktop:~/next-level-week-4-NodeJs$ cd api
+user@linux-desktop:~/next-level-week-4-NodeJs/api$ yarn dev
+```
